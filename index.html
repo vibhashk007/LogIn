@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game Box</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <div id="home" class="pimg1">
+    <div class="ptext">
+      
+          <div class="neon-wrapper">
+              <span class="txt border">Game Box</span>
+              <span class="gradient"></span>
+         </div>
+        
+      
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section One</h2>
+   
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+        <div class="neon-wrapper">
+            <span class="txt border">Game Box</span>
+            <span class="gradient"></span>
+       </div>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+        <div class="neon-wrapper">
+            <span class="txt border">Game Box</span>
+            <span class="gradient"></span>
+       </div>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Three</h2>
+    
+  </section>
+
+  <div class="pimg1">
+      <div class="ptext">
+        
+            <div class="neon-wrapper">
+                <span class="txt border">Game Box</span>
+                <span class="gradient"></span>
+           </div>
+           <!--MODAL SIGN IN-->
+           <div class=mode>
+             <div class="Log-in">
+              <button id="modalBtn" class="modbutton"><b>Log In</b></button>
+              <div id="simpleModal" class="modal">
+                  <div class="modal-content">
+                      
+                      
+                      <div class="modal-header">
+                              <span id=close class="closebtn">&times;</span>
+                              <div class="ptext-form">
+                                  <div class="neon-wrapper-form">
+                                      <span class="txt-form border">Log-In!</span>
+                                      <span class="gradient"></span>
+                                 </div>
+                              </div>
+                      </div>
+                      <div class="modal-body">
+                              <div class=container>
+                                  
+                                  <form name = "login" onsubmit="return validateform()">
+                                      <input type="text" name="name" placeholder="Username" required >
+                                      
+                                  
+                                       <br>
+                                     
+                                     
+                                      <input name=password type="password" placeholder="PASSWORD" required>
+                                     
+                                         <br>
+                                        <input class=button type=submit value= "SIGN-IN">
+                                        
+                                     
+                                         <br><br>
+                                     
+                                  </form>
+                                     
+                                     
+                                     
+                                     
+                                     </div>
+                      </div>
+                      <div class="modal-footer">
+                              <br>
+                      </div>
+          
+                  </div>
+              </div>
+            </div>
+              <!--End of Log In Modal-->
+
+
+
+              <!--Sign Up modal-->
+              <div class="sign-up">
+              <button id="signBtn" class="modbutton"><b>Sign Up</b></button>
+              <div id="signModal" class="modal">
+                  <div class="modal2-content">
+                      
+                      
+                      <div class="modal-header">
+                              <span class="closebtn2">&times;</span>
+                              <div class="ptext-sign">
+                                  <div class="neon-wrapper-sign">
+                                      <span class="txt-sign border">Sign-Up!</span>
+                                      <span class="gradient"></span>
+                                 </div>
+                              </div>
+                      </div>
+                      <div class="modal-body">
+                              <div class=container>
+                                  
+                                <form class="login" name="login1" onsubmit="return validate()">
+                                  <input type="text" name="name" placeholder="Username">
+                                  <input type="text" name="email" placeholder="Email">
+                                  <input type="password" name="password" placeholder="Password">
+                                  <input type="tel" name="num" placeholder="Mobile Number">
+                                  <input type="date" name="date" placeholder="DOB" style="width:200px;">
+                                      <input class=button type=submit value= "SIGN-UP">
+                                        
+                                     
+                                         <br><br>
+                                     
+                                  </form>
+                                                               
+                                     
+                                     
+                                     
+                              </div>
+                      </div>
+                      <div class="modal-footer">
+                              <br>
+                      </div>
+          
+                  </div>
+              </div>
+            </div>
+            <!--End Of Sign Up Modal-->
+          </div>
+          
+        
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
