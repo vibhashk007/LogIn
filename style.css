@@ -20,19 +20,19 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image2.jpg');
+  background-image:url('image2.jpg');
   min-height:100%;
   opacity: 1;
 }
 
 .pimg2{
-  background-image:url('../img/xbox.jpg');
+  background-image:url('xbox.jpg');
   min-height:400px;
   opacity:0.70;
 }
 
 .pimg3{
-  background-image:url('../img/control.jpg');
+  background-image:url('control.jpg');
   min-height:400px;
   opacity:0.70;
 }
